@@ -1,0 +1,23 @@
+name=
+email=
+source=
+comment=
+abaqus=6.11
+memory=50
+log=yes
+mail=
+cpus=8 gpu=nvidia
+backup=
+##################
+# ПРИМЕР КОНФИГА #
+##################
+name=Chuck Norris  *необязательно для S_CT
+email=cnorris@dosmartec.ru  *необязательно для S_CT
+source=\\ws100500\d\users\md100500\work\test_project_files\dp0\SYS-1\MECH\
+comment=комментарий abaqus job=abaqus analysis cpus=2 gpu=nvidia parallel=tree interactive
+abaqus=6.7/6.11
+memory=8000/80
+log=yes/no
+mail=mail1@dosmartec.ru,mail2@samara.dosmartec.ru
+cpus=8 gpu=nvidia
+backup=\\wsrv-4\PRJ\S_CT\backup
